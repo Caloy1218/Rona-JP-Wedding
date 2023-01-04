@@ -19,4 +19,5 @@
 }
 .sched-container ul li {
   list-style-type: disc;
+  font-weight: 100;
 }
