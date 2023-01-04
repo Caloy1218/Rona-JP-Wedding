@@ -1,0 +1,22 @@
+.location-container p {
+  display: block;
+  text-align: center;
+}
+
+.sched-container {
+  padding: 20px 50px;
+  color: white;
+  font-family: poppins;
+}
+.sched-container ol {
+  line-height: 25px;
+}
+.sched-container ol li {
+  list-style-type: upper-roman;
+}
+.sched-container ul {
+  margin-left: 45px;
+}
+.sched-container ul li {
+  list-style-type: disc;
+}
