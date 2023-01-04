@@ -28,3 +28,6 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+const activePage = window.location;
+console.log(activePage);

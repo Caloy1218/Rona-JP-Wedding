@@ -63,6 +63,7 @@ body {
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
+.nav-container ul li a:is 
 main {
   padding: 550px 200px 0;
 }
@@ -176,3 +177,4 @@ main h2 {
     font-size: 1rem;
   }
 }
+

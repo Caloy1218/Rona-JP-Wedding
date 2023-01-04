@@ -1,0 +1,11 @@
+.location-container {
+  padding: 100px;
+}
+.location-container h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 3rem;
+}
+.nav-container {
+  height: 10vh;
+}
