@@ -1,11 +1,84 @@
 .location-container {
-  padding: 100px;
+  padding: 100px 0;
+}
+.title {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 90%;
 }
 .location-container h1 {
   text-align: center;
   margin: 20px 0 0 0;
   font-size: 3rem;
+  font-family: poppins;
+  color: white;
+  display: inline;
+}
+.location-icon {
+  width: 100px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  z-index: -10;
+}
+.RNJP-icon {
+  display: none;
 }
 .nav-container {
-  height: 10vh;
+  height: 11vh;
+}
+.RC-container img {
+  mix-blend-mode: multiply;
+}
+@media screen and (max-width: 768px) {
+  .location-container h1 {
+    font-size: 2.4rem;
+  }
+  .location-icon {
+    width: 70px;
+  }
+  .RNJP-icon {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+  }
+  .RNJP-icon img {
+    width: 200px;
+  }
+  .reception--church {
+    padding: 50px 0;
+    display: flex;
+  }
+  .RC-container {
+    flex: 1;
+    text-align: center;
+    gap: 20px;
+    font-family: poppins;
+    color: white;
+  }
+  .RC-container img {
+    width: 150px;
+    position: relative;
+    z-index: -10;
+  }
+  .RC-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .RC-container p {
+    font-weight: 100;
+    margin-bottom: 15px;
+  }
+  .RC-container button {
+    padding: 5px 8px;
+  }
+
+  .RC-container a {
+    text-decoration: none;
+    font-family: poppins;
+    color: #b7410e;
+    font-size: 1rem;
+  }
 }

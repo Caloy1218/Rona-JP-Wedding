@@ -29,5 +29,6 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-const activePage = window.location;
+const activePage = window.location.pathname;
+const navLink = document.querySelectorAll
 console.log(activePage);

@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 .img-icon img {
-  width: 60%;
+  width: 50%;
   height: 350px;
   text-align: center;
   margin-top: 10px;
@@ -63,7 +63,7 @@ body {
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
-.nav-container ul li a:is 
+
 main {
   padding: 550px 200px 0;
 }
@@ -141,6 +141,7 @@ main h2 {
     transition: 0.5s;
     height: 100vh;
     background-color: #b7410e;
+    z-index: 100;
   }
   .nav-item {
     margin: 40px 0px;
@@ -177,4 +178,3 @@ main h2 {
     font-size: 1rem;
   }
 }
-
