@@ -25,7 +25,7 @@
   display: none;
 }
 .nav-container {
-  height: 11vh;
+  height: 13vh;
 }
 .RC-container img {
   mix-blend-mode: multiply;
@@ -68,8 +68,8 @@
     text-transform: uppercase;
   }
   .RC-container p {
-    font-weight: 100;
-    margin-bottom: 15px;
+    font-weight: 200;
+    margin-bottom: 25px;
   }
   .RC-container button {
     padding: 5px 8px;
