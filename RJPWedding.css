@@ -102,7 +102,7 @@ main h2 {
   color: #b7410e;
   font-family: "Poppins", sans-serif;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
