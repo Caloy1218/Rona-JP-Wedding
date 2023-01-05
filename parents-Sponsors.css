@@ -9,25 +9,49 @@
   padding: 20px 0px;
   color: white;
   font-family: poppins;
+  position: relative;
+}
+.border-left {
+  width: 110px;
+  position: absolute;
+  z-index: -2;
+  left: -10px;
+  top: -5px;
 }
 .parents-container {
   display: flex;
-  gap: 5px;
-  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto 0;
+  padding: 0 20px 0 25px;
+  position: relative;
 }
-.parents h3 {
-  font-size: 0.9rem;
+.border-rightBtm {
+  width: 110px;
+  position: absolute;
+  z-index: -2;
+  right: -10px;
+  bottom: 1000x;
+}
+.parents-groom h3,
+.parents-bride h3 {
+  font-size: 1.2rem;
   text-decoration: underline;
-  text-align: center;
   font-weight: 400;
+  margin: 0 0 5px 0;
   text-transform: uppercase;
 }
+.parents-bride {
+  padding-left: 100px;
+}
+
 .parentSponsors-container p {
   text-indent: 0;
+  text-align: justify;
 }
 .parentSponsors-container a {
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .pSponsors-container {
@@ -48,8 +72,10 @@
   flex: 1;
 }
 .pSponsors-name p {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   letter-spacing: 0;
   text-align: justify;
   text-indent: 0;
+  line-height: 25px;
+  padding-left: 5px;
 }
