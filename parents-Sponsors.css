@@ -1,0 +1,55 @@
+.ourStory-container .title {
+  padding-top: 10px;
+}
+.ourStory-container .title .ps_text {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+.parentSponsors-container {
+  padding: 20px 0px;
+  color: white;
+  font-family: poppins;
+}
+.parents-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.parents h3 {
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.parentSponsors-container p {
+  text-indent: 0;
+}
+.parentSponsors-container a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.pSponsors-container {
+  display: flex;
+  width: 95%;
+  margin: 10px auto 0;
+  gap: 5px;
+}
+.pSponsors h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.pSponsors-name {
+  flex: 1;
+}
+.pSponsors-name p {
+  font-size: 0.85rem;
+  letter-spacing: 0;
+  text-align: justify;
+  text-indent: 0;
+}
