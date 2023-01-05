@@ -1,15 +1,23 @@
 .ourStory-container .title {
-  padding-top: 10px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .ourStory-container .title .ps_text {
-  font-size: 1.4rem;
-  margin-right: 10px;
+  font-size: 1.6rem;
+  margin: 10px 10px 0;
+}
+.ourStory-container .title img {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: -100px;
 }
 .parentSponsors-container {
   padding: 20px 0px;
   color: white;
   font-family: poppins;
   position: relative;
+  z-index: -1;
 }
 .border-left {
   width: 110px;
@@ -22,7 +30,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 10px auto 0;
+  margin: 10px auto 10px;
   padding: 0 20px 0 25px;
   position: relative;
 }
@@ -30,19 +38,19 @@
   width: 110px;
   position: absolute;
   z-index: -2;
-  right: -10px;
-  bottom: 1000x;
+  right: -8px;
+  bottom: -45px;
 }
 .parents-groom h3,
 .parents-bride h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: underline;
   font-weight: 400;
   margin: 0 0 5px 0;
   text-transform: uppercase;
 }
 .parents-bride {
-  padding-left: 100px;
+  padding: 20px 0 0 100px;
 }
 
 .parentSponsors-container p {
@@ -53,16 +61,22 @@
   text-decoration: none;
   font-size: 0.9rem;
 }
-
+.pSponsors {
+  margin: 40px 0;
+  border: 1px solid white;
+  padding: 0 0 40px 0;
+}
 .pSponsors-container {
   display: flex;
+  flex-direction: column;
   width: 95%;
   margin: 10px auto 0;
   gap: 5px;
+  padding: 0 15px;
 }
 .pSponsors h3 {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: underline;
   text-transform: uppercase;
   font-weight: 400;
@@ -72,9 +86,9 @@
   flex: 1;
 }
 .pSponsors-name p {
-  font-size: 0.8rem;
-  letter-spacing: 0;
-  text-align: justify;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-align: center;
   text-indent: 0;
   line-height: 25px;
   padding-left: 5px;
