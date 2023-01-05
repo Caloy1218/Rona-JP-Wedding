@@ -12,7 +12,7 @@ body {
   position: relative;
   z-index: -1;
 }
-.ourStory-container .title .ps_text { 
+.ourStory-container .title .ps_text {
   font-size: 1.6rem;
   margin: 10px 10px 0;
 }
@@ -77,8 +77,9 @@ body {
   text-decoration: none;
   font-size: 1.1rem;
 }
-.pSponsors {
-  margin: 40px 0;
+.pSponsors,
+.secondary-sponsors {
+  margin: 40px 0 0 0;
   padding: 0 15px 40px 25px;
 }
 .pSponsors-container {
@@ -89,7 +90,8 @@ body {
   flex-direction: column;
   border-right: 5px dashed white;
 }
-.pSponsors h3 {
+.pSponsors h3,
+.secondary-sponsors h3 {
   color: white;
   text-align: justify;
   font-size: 1.3rem;
@@ -108,4 +110,49 @@ body {
   text-indent: 0;
   line-height: 25px;
   letter-spacing: 2px;
+}
+.bestMan-maidOfHonor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin-top: 20px;
+  border-left: 5px dashed white;
+}
+.bestMan-maidOfHonor h4 {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  text-align: end;
+  font-size: 1.1rem;
+}
+.bestMan-maidOfHonor p {
+  font-size: 1rem;
+  text-align: end;
+}
+.secondary-sponsors {
+  display: flex;
+  width: 100%;
+  margin: 10px auto 0;
+  gap: 5px;
+  flex-direction: column;
+  border-left: 5px dashed white;
+  border-right: 5px dashed white;
+}
+.secondary-sponsors h3 {
+  text-align: center;
+}
+.secondary-sponsors h4 {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.secondary-sponsors p {
+  text-align: center;
 }
