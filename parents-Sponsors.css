@@ -135,11 +135,9 @@ body {
 .secondary-sponsors {
   display: flex;
   width: 100%;
-  margin: 10px auto 0;
+  margin: -20px auto 0;
   gap: 5px;
   flex-direction: column;
-  border-left: 5px dashed white;
-  border-right: 5px dashed white;
 }
 .secondary-sponsors h3 {
   text-align: center;
@@ -155,4 +153,16 @@ body {
 }
 .secondary-sponsors p {
   text-align: center;
+  font-size: 1rem;
+  text-indent: 0;
+}
+.up-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+}
+.up-btn img {
+  width: 50px;
+  transition: all 1s;
 }
