@@ -3,7 +3,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.ourStory-container .title .ps_text {
+body {
+  position: relative;
+  z-index: -1;
+}
+.ourStory-container {
+  font-family: poppins;
+  position: relative;
+  z-index: -1;
+}
+.ourStory-container .title .ps_text { 
   font-size: 1.6rem;
   margin: 10px 10px 0;
 }
@@ -12,12 +21,12 @@
   margin: 0 auto;
   padding-top: -100px;
 }
-.parentSponsors-container {
+/* .parentSponsors-container {
   padding: 20px 0px;
   color: white;
   font-family: poppins;
   z-index: -11;
-}
+} */
 .border-left {
   width: 110px;
   position: absolute;
@@ -29,10 +38,10 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 10px auto 10p x;
+  margin: 30px auto 10px;
   padding: 0 20px 0 25px;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 .border-rightBtm {
   width: 110px;
@@ -44,6 +53,7 @@
 
 .parents-groom h3,
 .parents-bride h3 {
+  color: white;
   font-size: 1.3rem;
   text-decoration: underline;
   font-weight: 400;
@@ -54,34 +64,34 @@
   padding: 20px 5px 0 40px;
 }
 
-.parentSponsors-container .parents-groom p {
+.parents-groom p {
   text-indent: 0;
   text-align: justify;
 }
-
-.parentSponsors-container .parents-bride p,
+.parents-bride p,
 .parents-bride h3 {
   text-align: end;
 }
 
-.parentSponsors-container a {
+.ourStory-container a {
   text-decoration: none;
   font-size: 1.1rem;
 }
 .pSponsors {
   margin: 40px 0;
-
-  padding: 0 0 40px 0;
+  padding: 0 15px 40px 25px;
 }
 .pSponsors-container {
   display: flex;
   width: 100%;
   margin: 10px auto 0;
   gap: 5px;
-  padding: 0 15px;
+  flex-direction: column;
+  border-right: 5px dashed white;
 }
 .pSponsors h3 {
-  text-align: center;
+  color: white;
+  text-align: justify;
   font-size: 1.3rem;
   text-decoration: underline;
   text-transform: uppercase;
@@ -92,9 +102,10 @@
   flex: 1;
 }
 .pSponsors-name p {
-  font-size: 0.81rem;
+  font-size: 1rem;
   letter-spacing: 0px;
   text-align: justify;
   text-indent: 0;
   line-height: 25px;
+  letter-spacing: 2px;
 }
