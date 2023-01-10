@@ -43,6 +43,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 .border-rightBtm {
   width: 110px;
   position: absolute;

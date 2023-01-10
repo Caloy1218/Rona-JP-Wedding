@@ -32,14 +32,13 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 const activePage = window.location.pathname;
 const navLink = document.querySelectorAll;
 console.log(activePage);
-
+setTimeout(() => document.querySelector(".cover").remove(), 3000);
 function invited() {
   $(".cover").addClass("animate__animated animate__hinge");
-  $(".cover").remove();
 }
 
-const homeLink = document.querySelector(".homeLink");
+const homeLink = document.querySelector("#homeLink");
 
 homeLink.addEventListener("click", () => {
-  $(".cover").remove();
+  document.querySelector(".cover").remove();
 });

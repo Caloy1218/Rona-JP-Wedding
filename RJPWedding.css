@@ -12,7 +12,7 @@ body {
   position: relative;
 }
 .cover {
-  background-color: #b7410e;
+  background-color: #fff;
   position: absolute;
   top: 0;
   left: 0;
@@ -26,7 +26,7 @@ body {
   mix-blend-mode: multiply;
 }
 .cover-container {
-  color: #fff;
+  color: #b7410e;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -34,10 +34,6 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: "Great Vibes", cursive;
-}
-.ring {
-  width: 100px;
-  margin: 0 auto;
 }
 .cover-container h1 {
   font-size: 4rem;
@@ -48,13 +44,18 @@ body {
 .cover-container h2 {
   font-size: 4.5rem;
 }
+.jpRonaPic {
+  width: 80%;
+  margin: 0 auto;
+}
 .coverImgBtm {
-  width: 100%;
-  mix-blend-mode: multiply;
   position: fixed;
+  width: 100%;
+  z-index: -1;
   bottom: 0;
   left: 0;
 }
+
 .nav-container {
   height: 50vh;
   background-color: white;
