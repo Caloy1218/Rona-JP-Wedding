@@ -8,6 +8,53 @@ body {
   background-color: #b7410e;
   width: 100%;
 }
+.page-container {
+  position: relative;
+}
+.cover {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 100;
+  right: 0;
+  bottom: -300px;
+}
+.coverImgTop {
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+.cover-container {
+  color: #b7410e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
+.ring {
+  width: 100px;
+  margin: 0 auto;
+}
+.cover-container h1 {
+  font-size: 4rem;
+}
+.cover-container h3 {
+  font-size: 2rem;
+}
+.cover-container h2 {
+  font-size: 4.5rem;
+}
+.coverImgBtm {
+  width: 100%;
+  mix-blend-mode: multiply;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 .nav-container {
   height: 50vh;
   background-color: white;
