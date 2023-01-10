@@ -35,5 +35,11 @@ console.log(activePage);
 
 function invited() {
   $(".cover").addClass("animate__animated animate__hinge");
-  $(".cover").css("display", "none");
+  $(".cover").remove();
 }
+
+const homeLink = document.querySelector(".homeLink");
+
+homeLink.addEventListener("click", () => {
+  $(".cover").remove();
+});
