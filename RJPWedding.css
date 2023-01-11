@@ -36,21 +36,22 @@ body {
   font-family: "Great Vibes", cursive;
 }
 .cover-container h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .cover-container h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .cover-container h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .jpRonaPic {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 .coverImgBtm {
   width: 100%;
-  margin-top: 35px;
+  margin-top: 50px;
+  mix-blend-mode: multiply;
 }
 
 .nav-container {
