@@ -36,13 +36,13 @@ body {
   font-family: "Great Vibes", cursive;
 }
 .cover-container h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .cover-container h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .cover-container h2 {
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 .jpRonaPic {
   width: 80%;
@@ -51,7 +51,7 @@ body {
 .coverImgBtm {
   position: fixed;
   width: 100%;
-  z-index: -1;
+
   bottom: 0;
   left: 0;
 }

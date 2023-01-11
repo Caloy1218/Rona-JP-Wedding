@@ -32,7 +32,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 const activePage = window.location.pathname;
 const navLink = document.querySelectorAll;
 console.log(activePage);
-setTimeout(() => document.querySelector(".cover").remove(), 3000);
+setTimeout(() => document.querySelector(".cover").remove(), 5000);
 function invited() {
   $(".cover").addClass("animate__animated animate__hinge");
 }
