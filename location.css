@@ -1,5 +1,5 @@
 .location-container {
-  padding: 100px 0;
+  padding: 20px 0 0 0;
 }
 .title {
   display: flex;
@@ -29,7 +29,6 @@
   height: 110px;
 }
 .RC-container img {
-  mix-blend-mode: multiply;
 }
 @media screen and (max-width: 768px) {
   .location-container h1 {
@@ -55,18 +54,25 @@
   .reception--church {
     padding: 20px;
     display: flex;
+    flex-direction: column;
+    background-color: #b7410e;
+    gap: 10px;
   }
   .RC-container {
+    padding: 5px 20px;
     flex: 1;
     text-align: center;
     gap: 20px;
     font-family: poppins;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
+
   .RC-container img {
     width: 150px;
-    position: relative;
-    z-index: -10;
+    z-index: 1;
+    mix-blend-mode: color-burn;
   }
   .RC-container h3 {
     font-size: 1.8rem;

@@ -53,6 +53,7 @@ footer {
   box-sizing: border-box;
   color: #b7410e;
   min-width: 300px;
+  margin-top: 50px;
 }
 .footer-container {
   border: 1px solid #b7410e;
