@@ -1,11 +1,19 @@
 .ourStory-text {
   padding: 20px 30px;
 }
+.ourStory-container {
+}
 .ourStory-container p {
   font-family: poppins;
   text-indent: 20px;
   text-align: justify;
   color: white;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
+}
+.bgF-1 {
+  mix-blend-mode: color-burn;
+  position: absolute;
+  z-index: -100;
+  top: 200px;
 }
