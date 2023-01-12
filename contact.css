@@ -1,5 +1,6 @@
 .ourStory-container .contact .contact-container {
   padding: 0 20px;
+  min-width: 300px;
 }
 .contact-container h3 {
   color: white;
@@ -23,7 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap: 15px;
+  gap: 10px;
   margin-top: 20px;
 }
 .contact-container form input {
@@ -45,12 +46,13 @@
 }
 footer {
   background-color: white;
-  height: 250px;
+  height: 25w0px;
   font-family: poppins;
   font-weight: 500;
   padding: 10px;
   box-sizing: border-box;
   color: #b7410e;
+  min-width: 300px;
 }
 .footer-container {
   border: 1px solid #b7410e;
