@@ -6,8 +6,8 @@
   position: absolute;
   mix-blend-mode: color-burn;
   z-index: -1;
-  bottom: 0;
-  right: 0;
+  bottom: -100px;
+  right: -20px;
 }
 .sched-container {
   padding: 20px 55px;
