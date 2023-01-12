@@ -1,0 +1,74 @@
+.ourStory-container .contact .contact-container {
+  padding: 0 20px;
+}
+.contact-height {
+}
+.contact-container h3 {
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.contact-container h4 {
+  color: white;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.contact-container h3,
+.contact-container h4 {
+  color: white;
+  text-align: center;
+}
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 20px;
+}
+.contact-container form input {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.contact-container form textarea {
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+#submit-btn {
+  color: gray;
+}
+footer {
+  background-color: white;
+  height: 22vh;
+  font-family: poppins;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  color: #b7410e;
+  font-weight: 500;
+  justify-content: space-between;
+}
+footer p a {
+  text-decoration: none;
+  color: #b7410e;
+}
+footer p a:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.details {
+  line-height: 40px;
+}
+.soc-meds {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.soc-meds img {
+  width: 40px;
+  object-fit: contain;
+  border-radius: 50px;
+}
