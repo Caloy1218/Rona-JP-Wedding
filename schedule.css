@@ -9,8 +9,9 @@
   bottom: -100px;
   right: -20px;
 }
+
 .sched-container {
-  padding: 20px 55px;
+  padding: 20px;
   color: white;
   font-family: poppins;
 }
@@ -26,7 +27,11 @@
 }
 .sched-container ul li {
   list-style-type: disc;
-  font-weight: 300;
+  font-weight: 250;
   letter-spacing: 2px;
   font-size: 0.9rem;
+}
+.sched-semiContainer {
+  border: 1px solid;
+  padding: 20px 50px;
 }
