@@ -11,9 +11,11 @@
   font-weight: 400;
   letter-spacing: 2px;
 }
-.bgF-1 {
+.bgF-3 {
   mix-blend-mode: color-burn;
   position: absolute;
   z-index: -100;
-  top: 200px;
+  top: 500px;
+  left: -20px;
+  width: 300px;
 }

@@ -134,9 +134,13 @@ body {
   text-align: end;
 }
 .secondary-sponsors {
-  display: flex;
   width: 100%;
   margin: -20px auto 0;
+}
+.secondary-border {
+  border: 5px dashed white;
+  padding: 20px 0 40px 0;
+  display: flex;
   gap: 5px;
   flex-direction: column;
 }
