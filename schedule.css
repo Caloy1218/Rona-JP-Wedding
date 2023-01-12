@@ -7,7 +7,7 @@
   mix-blend-mode: color-burn;
   z-index: -1;
   bottom: -100px;
-  right: -20px;
+  right: 0px;
 }
 
 .sched-container {

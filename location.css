@@ -1,5 +1,6 @@
 .location-container {
   padding: 20px 0 0 0;
+  height: 100vh;
 }
 .title {
   display: flex;
@@ -16,23 +17,17 @@
   color: white;
   display: inline;
 }
-.location-icon {
-  width: 100px;
-  mix-blend-mode: color-burn;
-  position: relative;
-  z-index: -1;
-}
-.RNJP-icon {
-  display: none;
-}
+
 .nav-container {
   height: 110px;
 }
-.RC-container img {
-}
+
 @media screen and (max-width: 768px) {
   .location-container h1 {
     font-size: 1.8rem;
+  }
+  .location-container {
+    height: 100vh;
   }
   .title img {
     width: 200px;
@@ -59,6 +54,8 @@
     gap: 10px;
   }
   .RC-container {
+    width: 80%;
+    margin: 0 auto;
     padding: 5px 20px;
     flex: 1;
     text-align: center;
@@ -70,7 +67,7 @@
   }
 
   .RC-container img {
-    width: 150px;
+    width: 100px;
     z-index: 1;
     mix-blend-mode: color-burn;
   }
