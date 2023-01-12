@@ -67,18 +67,18 @@
   }
 
   .RC-container img {
-    width: 100px;
+    width: 80px;
     z-index: 1;
     mix-blend-mode: color-burn;
   }
   .RC-container h3 {
     font-size: 1.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-transform: uppercase;
   }
   .RC-container p {
     font-weight: 200;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
   .RC-container button {
     padding: 5px 8px;
