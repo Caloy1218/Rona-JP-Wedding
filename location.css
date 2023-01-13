@@ -55,6 +55,7 @@
     margin: 0 auto;
     padding: 5px 20px;
     flex: 1;
+    background-color: white;
     text-align: center;
     gap: 10px;
     font-family: poppins;
@@ -67,25 +68,29 @@
   .RC-container img {
     width: 80px;
     z-index: 1;
-    mix-blend-mode: color-burn;
   }
   .RC-container h3 {
     font-size: 1.2rem;
     margin-bottom: 5px;
     text-transform: uppercase;
+    color: #b7410e;
   }
   .RC-container p {
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 10px;
+    color: #b7410e;
   }
   .RC-container button {
     padding: 5px 8px;
+    background-color: #b7410e;
+    border: none;
+    border-radius: 2px;
   }
 
   .RC-container a {
     text-decoration: none;
     font-family: poppins;
-    color: #b7410e;
+    color: white;
     font-size: 1rem;
   }
 }
