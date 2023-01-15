@@ -1,5 +1,6 @@
 .location-container {
-  margin: 110px 0 100px 0;
+  margin: 0px 0 100px 0;
+  padding-top: 100px;
 }
 .title {
   display: flex;
@@ -48,16 +49,16 @@
     flex-direction: column;
     background-color: #b7410e;
     gap: 20px;
-    height: 70vh;
+    height: 75vh;
   }
   .RC-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    padding: 5px 20px;
+    padding: 30px 10px;
     flex: 1;
     background-color: white;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
     font-family: poppins;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -66,8 +67,10 @@
   }
 
   .RC-container img {
-    width: 80px;
+    width: 120px;
     z-index: 1;
+    border: 1px solid #b7410e;
+    padding: 10px 20px;
   }
   .RC-container h3 {
     font-size: 1.2rem;
