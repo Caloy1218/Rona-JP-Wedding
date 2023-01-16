@@ -49,7 +49,7 @@
     flex-direction: column;
     background-color: #b7410e;
     gap: 20px;
-    height: 75vh;
+    height: 90vh;
   }
   .RC-container {
     width: 90%;
@@ -67,9 +67,10 @@
   }
 
   .RC-container img {
-    width: 120px;
+    width: 150px;
     z-index: 1;
     border: 1px solid #b7410e;
+    border-radius: 5px;
     padding: 10px 20px;
   }
   .RC-container h3 {
