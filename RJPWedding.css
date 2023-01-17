@@ -271,15 +271,23 @@ main h2 {
     color: #b7410e;
     margin: 0;
     font-weight: 400;
+    margin: 0 0 10px 0;
   }
   .dressCode h3 {
     text-align: center;
     color: #b7410e;
     font-family: poppins;
     font-weight: 300;
+    margin: 0 0 10px 0;
   }
   .colorImg {
     text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-left: 2px dashed #b7410e;
+    border-right: 2px dashed #b7410e;
+    border-radius: 50px;
+    padding: 10px 0;
   }
   .colorImg img {
     mix-blend-mode: multiply;
