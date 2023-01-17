@@ -44,6 +44,13 @@ body {
 .cover-container h2 {
   font-size: 3.5rem;
 }
+.cover-container h4 {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  
+}
 .jpRonaPic {
   width: 70%;
   margin: 0 auto;
@@ -266,6 +273,8 @@ main h2 {
     background-color: white;
     margin: 70px 0 0 0;
     padding: 20px 0 50px 0;
+    position: relative;
+    z-index: -1;
   }
   .dressCode h2 {
     color: #b7410e;

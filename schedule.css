@@ -23,15 +23,15 @@
   font-size: 1.2rem;
 }
 .sched-container ul {
-  margin-left: 55px;
+  margin-left: 25px;
 }
 .sched-container ul li {
   list-style-type: disc;
   font-weight: 250;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 0.9rem;
 }
 .sched-semiContainer {
   border: 1px solid;
-  padding: 20px 50px;
+  padding: 20px 40px 20px 40px;
 }

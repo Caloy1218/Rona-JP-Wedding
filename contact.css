@@ -1,5 +1,5 @@
 .ourStory-container .contact .contact-container {
-  padding: 0 20px;
+  padding: 0 px;
   min-width: 300px;
 }
 .contact-container h3 {
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 12px;
   margin-top: 20px;
 }
 .contact-container form input {
@@ -53,7 +53,7 @@ footer {
   box-sizing: border-box;
   color: #b7410e;
   min-width: 300px;
-  margin-top: 50px;
+  margin-top: -45px;
 }
 .footer-container {
   border: 1px solid #b7410e;
