@@ -199,7 +199,7 @@ main h2 {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .img-icon img { 
+  .img-icon img {
     width: 100%;
     height: 280px;
     margin-top: 50px;
@@ -261,5 +261,28 @@ main h2 {
 
   .countDown-semiContainer span {
     font-size: 1rem;
+  }
+  .dressCode {
+    background-color: white;
+    margin: 70px 0 0 0;
+    padding: 20px 0 50px 0;
+  }
+  .dressCode h2 {
+    color: #b7410e;
+    margin: 0;
+    font-weight: 400;
+  }
+  .dressCode h3 {
+    text-align: center;
+    color: #b7410e;
+    font-family: poppins;
+    font-weight: 300;
+  }
+  .colorImg {
+    text-align: center;
+  }
+  .colorImg img {
+    mix-blend-mode: multiply;
+    width: 200px;
   }
 }
