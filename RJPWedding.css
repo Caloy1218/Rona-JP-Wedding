@@ -8,7 +8,9 @@ body {
   background-color: #b7410e;
   width: 100%;
 }
-
+.page-container {
+  position: relative;
+}
 .cover {
   background-color: #fff;
   position: absolute;
@@ -17,7 +19,7 @@ body {
 
   z-index: 100;
   right: 0;
-  bottom: 0;
+  bottom: -327px;
 }
 .coverImgTop {
   width: 100%;
@@ -272,7 +274,6 @@ main h2 {
     padding: 20px 0 50px 0;
     position: relative;
     z-index: -1;
-    bottom: 0;
   }
   .dressCode h2 {
     color: #b7410e;
