@@ -8,9 +8,7 @@ body {
   background-color: #b7410e;
   width: 100%;
 }
-.page-container {
-  position: relative;
-}
+
 .cover {
   background-color: #fff;
   position: absolute;
@@ -19,7 +17,7 @@ body {
 
   z-index: 100;
   right: 0;
-  bottom: -327px;
+  bottom: 0;
 }
 .coverImgTop {
   width: 100%;
@@ -49,7 +47,6 @@ body {
   font-weight: 300;
   font-size: 1.2rem;
   margin-top: 20px;
-  
 }
 .jpRonaPic {
   width: 70%;
@@ -275,6 +272,7 @@ main h2 {
     padding: 20px 0 50px 0;
     position: relative;
     z-index: -1;
+    bottom: 0;
   }
   .dressCode h2 {
     color: #b7410e;
