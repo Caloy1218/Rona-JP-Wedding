@@ -130,7 +130,7 @@ main h2 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2rem;
   margin: 0 0 50px 0;
 }
@@ -143,10 +143,10 @@ main h2 {
 }
 .countDown-container img {
   position: absolute;
-  width: 450px;
+  width: 440px;
   height: 405px;
   right: -40px;
-  top: -200px;
+  top: -215px;
 
   z-index: -5;
 }
