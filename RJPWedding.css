@@ -19,7 +19,7 @@ body {
 
   z-index: 100;
   right: 0;
-  bottom: -327px;
+  bottom: -527px;
 }
 .coverImgTop {
   width: 100%;
@@ -36,13 +36,13 @@ body {
   font-family: "Great Vibes", cursive;
 }
 .cover-container h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .cover-container h3 {
   font-size: 1.5rem;
 }
 .cover-container h2 {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
 }
 .cover-container h4 {
   font-family: poppins;
@@ -51,12 +51,11 @@ body {
   margin-top: 20px;
 }
 .jpRonaPic {
-  width: 70%;
+  width: 350px;
   margin: 0 auto;
 }
 .coverImgBtm {
   width: 100%;
-  margin-top: 50px;
   mix-blend-mode: multiply;
 }
 
@@ -144,10 +143,10 @@ main h2 {
 }
 .countDown-container img {
   position: absolute;
-  width: 100%;
-  right: 0;
+  width: 400px;
+  right: -40px;
   top: -200px;
-  mix-blend-mode: color-burn;
+
   z-index: -5;
 }
 .countDown-semiContainer {
@@ -255,10 +254,13 @@ main h2 {
   .countDown-container {
     gap: 5px;
     margin: 0 auto;
+    padding-top: 44px;
   }
   .countDown-semiContainer {
     width: 100%;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
 
   .countDown-semiContainer p {
