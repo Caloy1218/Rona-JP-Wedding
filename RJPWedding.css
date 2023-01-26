@@ -132,7 +132,7 @@ main h2 {
   color: white;
   font-weight: 300;
   font-size: 2rem;
-  margin: 0 0 50px 0;
+  margin: 0 0 0 0;
 }
 .countDown-container {
   display: flex;
@@ -143,10 +143,10 @@ main h2 {
 }
 .countDown-container img {
   position: absolute;
-  width: 440px;
-  height: 405px;
-  right: -40px;
-  top: -215px;
+  width: 330px;
+  height: 330px;
+  right: -10px;
+  top: -165px;
 
   z-index: -5;
 }

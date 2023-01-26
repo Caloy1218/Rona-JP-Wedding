@@ -16,7 +16,7 @@
   font-family: poppins;
 }
 .sched-container ol {
-  line-height: 25px;
+  line-height: 30px;
 }
 .sched-container ol li {
   list-style-type: upper-roman;
@@ -29,7 +29,7 @@
   list-style-type: disc;
   font-weight: 250;
   letter-spacing: 1px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .sched-semiContainer {
   border: 1px solid;
