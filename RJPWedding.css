@@ -143,10 +143,10 @@ main h2 {
 }
 .countDown-container img {
   position: absolute;
-  width: 370px;
-  height: 350px;
-  right: -20px;
-  top: -177px;
+  width: 400px;
+  height: 400px;
+  right: -40px;
+  top: -210px;
 
   z-index: -5;
 }
