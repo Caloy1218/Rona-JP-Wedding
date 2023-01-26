@@ -162,11 +162,24 @@ body {
 }
 .up-btn {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: -80px;
+  right: 36px;
   border: none;
 }
 .up-btn img {
   width: 50px;
   transition: all 1s;
+}
+
+.wedSuppliers {
+  width: 70%;
+  margin: 0 auto;
+}
+.wedSuppliers h4 {
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 300;
 }

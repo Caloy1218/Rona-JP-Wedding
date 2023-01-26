@@ -1,0 +1,40 @@
+th,
+td {
+  border: 1px solid #b7410e;
+  padding: 10px 0;
+}
+/* th:hover {
+  border: 1px solid white;
+  background-color: #b7410e;
+  color: white;
+}
+td:hover,
+a:hover {
+  border: 1px solid white;
+  background-color: #b7410e;
+  color: white;
+} */
+a:hover {
+  color: white;
+}
+table {
+  width: 95%;
+  margin: -80px auto 0;
+}
+th {
+  font-size: 1.2rem;
+  font-family: poppins;
+  color: #b7410e;
+  background-color: white;
+  border: 0.5px solid #b7410e;
+}
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  font-family: poppins;
+}
+td {
+  text-align: center;
+  border: 0.5px solid white;
+}
