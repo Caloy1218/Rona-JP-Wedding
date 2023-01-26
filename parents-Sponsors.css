@@ -175,6 +175,12 @@ body {
   width: 70%;
   margin: 0 auto;
 }
+.wedSuppliers:hover {
+  background-color: white;
+}
+.wedSuppliers h4:hover {
+  color: #b7410e;
+}
 .wedSuppliers h4 {
   border: 1px solid white;
   text-align: center;

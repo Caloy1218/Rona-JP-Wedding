@@ -223,12 +223,14 @@ main h2 {
     z-index: 1000;
     width: 500px;
   }
-
   .nav-item {
     margin: 30px 0px;
     width: 100%;
     border-bottom: 1px solid white;
     padding-bottom: -20px;
+  }
+  .nav-menu:hover {
+    background-color: rgba(183, 65, 14, 0.7);
   }
 
   .nav-menu.active {
