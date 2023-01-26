@@ -1,5 +1,5 @@
 .location-container {
-  margin: 0px 0 100px 0;
+  margin: 0px 0 120px 0;
   padding-top: 100px;
 }
 .title {
@@ -53,8 +53,8 @@
   }
   .RC-container {
     width: 90%;
-    margin: 0 auto;
-    padding: 30px 10px;
+    margin: 0 auto -10px;
+    padding: 20px 10px;
     flex: 1;
     background-color: white;
     text-align: center;
