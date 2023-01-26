@@ -90,6 +90,10 @@
     border: none;
     border-radius: 2px;
   }
+  .RC-container button:hover {
+    background-color: white;
+    color: #b7410e;
+  }
 
   .RC-container a {
     text-decoration: none;
