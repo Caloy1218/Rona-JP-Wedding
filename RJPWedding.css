@@ -145,8 +145,8 @@ main h2 {
   position: absolute;
   width: 400px;
   height: 400px;
-  right: -40px;
-  top: -210px;
+  right: -36px;
+  top: -200px;
 
   z-index: -5;
 }
