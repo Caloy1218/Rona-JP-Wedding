@@ -143,9 +143,9 @@ main h2 {
 }
 .countDown-container img {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  right: -36px;
+  width: 450px;
+  height: 405px;
+  right: -40px;
   top: -200px;
 
   z-index: -5;
