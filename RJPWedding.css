@@ -218,9 +218,10 @@ main h2 {
     flex-direction: column;
     text-align: center;
     transition: 0.5s;
-    height: 100vh;
-    background-color: #b7410e;
+    height: 104vh;
+    background-color: rgb(183, 65, 14);
     z-index: 1000;
+    width: 500px;
   }
 
   .nav-item {
