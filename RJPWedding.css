@@ -69,6 +69,7 @@ body {
   left: 0;
   box-shadow: 2px 1px 4px gray;
   width: 100%;
+  z-index: 10000;
 }
 .img-icon {
   text-align: center;
@@ -123,7 +124,7 @@ body {
 }
 main {
   padding: 550px 200px 0;
-  height: 60vh;
+  height: 100vh;
 }
 
 main h2 {
@@ -250,6 +251,7 @@ main h2 {
     padding: 400px 0 0 0;
     width: 100%;
     margin: 0 auto;
+    height: 100vh;
   }
   main h2 {
     font-size: 1.5rem;
