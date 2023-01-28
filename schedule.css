@@ -20,7 +20,22 @@
 }
 .sched-container ol li {
   list-style-type: upper-roman;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+.sched-container .first li {
+  list-style-type: upper-alpha;
+}
+span {
+  margin-left: 90px;
+  font-weight: 200;
+}
+i {
+  font-weight: 100;
+  text-align: center;
+}
+.sched-container .second li {
+  list-style-type: none;
+  margin-left: -20px;
 }
 .sched-container ul {
   margin-left: 25px;
@@ -33,5 +48,5 @@
 }
 .sched-semiContainer {
   border: 1px solid;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 20px 50px;
 }
