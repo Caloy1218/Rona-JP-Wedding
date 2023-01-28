@@ -30,6 +30,9 @@ body {
 .swiper-slide img {
   width: 100%;
 }
+.swiper-slide:hover {
+  transform: scale(2);
+}
 .swiper-slide:nth-child(1n) {
 }
 
